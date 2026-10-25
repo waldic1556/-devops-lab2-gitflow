@@ -2,7 +2,7 @@
 
 Simple web application used to practice the Gitflow workflow.
 
-Version: 1.0.0
+Version: 1.0.1
 
 ## Features
 

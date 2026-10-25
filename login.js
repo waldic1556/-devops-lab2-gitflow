@@ -1,6 +1,9 @@
 function validateLogin(username, password) {
-  if (username === "" || password === "") {
+  if (username.trim() === "" || password.trim() === "") {
     return "Username and password are required.";
+  }
+  if (password.length < 8) {
+    return "Password must be at least 8 characters long.";
   }
   return null;
 }
